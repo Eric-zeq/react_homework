@@ -1,0 +1,45 @@
+.pizza-card {
+    border: 1px solid #ccc;
+    width: 300px;
+    margin-left: 30%;
+    margin-bottom: 30px;
+}
+
+.pizza-card img {
+    width: 100%;
+    
+} 
+
+#pizza-info {
+    margin-left: 20px;
+}
+
+#pizza-buttons {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+#number-of-pizza {
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#number-of-pizza button {
+    background-color: #f2f2f2;
+    border: none;
+    padding: 10px 15px;
+    /* margin-right: 10px; */
+    cursor: pointer;
+}
+
+#add-to-cart {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-left: 20px;
+}
