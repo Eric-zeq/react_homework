@@ -1,3 +1,7 @@
+#about-container{
+    padding-left: 15%;
+    padding-right: 15%;
+}
 .about {
     margin-top: 50px;
     display: flex;

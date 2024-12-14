@@ -1,8 +1,11 @@
 import React from "react";
 import "./header.css";
 
-function Header({quote, p_text1, p_text2}) {
+function Header() {
     const menu_array = ["Home", "Pages", "Services", "Case study", "Blog", "Contact"];
+    const quote = "Get a Quote"
+    const p_text1 = "Big Opportunity";
+    const p_text2 = "For Your Business";
 
     const Menu = () => {
 
@@ -32,20 +35,22 @@ function Header({quote, p_text1, p_text2}) {
     };
 
   return (
-    <div className="header">
-        <div id='top-bar' >
-            <Menu />
-            <div id="quote">
-                <a href="/login">{quote}</a>
+    <header>
+        <div className="header">
+            <div id='top-bar' >
+                <Menu />
+                <div id="quote">
+                    <a href="/login">{quote}</a>
+                </div>
+            </div>
+            <div id="header-content">
+                <p>{p_text1}<br/>{p_text2}</p>
+                <div id='btn-container'>
+                    <a href="/services" className="btn">Our Services</a>
+                </div>
             </div>
         </div>
-        <div id="header-content">
-            <p>{p_text1}<br/>{p_text2}</p>
-            <div id='btn-container'>
-                <a href="/services" className="btn">Our Services</a>
-            </div>
-        </div>
-    </div>
+    </header>
     );
 }
 

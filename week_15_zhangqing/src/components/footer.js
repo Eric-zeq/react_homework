@@ -24,11 +24,13 @@ function Footer() {
 
 function showFooter(img,title,desc) {
     return (
-        <div className="footer-item">
-            <img src={img} alt={title} />
-            <h3>{title}</h3>
-            <p>{desc}</p>
-        </div>
+        <footer>
+            <div className="footer-item">
+                <img src={img} alt={title} />
+                <h3>{title}</h3>
+                <p>{desc}</p>
+            </div>
+        </footer>
     )
 }
 

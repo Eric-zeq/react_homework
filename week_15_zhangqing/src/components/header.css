@@ -1,7 +1,14 @@
+header {
+    height: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/banner.png");
+    background-size: cover;
+  }
+
 .header {
     height: 50px;
     border-bottom: 0.5px solid gainsboro;
 }
+
 
 #top-bar {
     display: flex;
