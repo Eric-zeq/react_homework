@@ -6,28 +6,3 @@ a {
   p {
     margin: 0;
   }
-  
-  header {
-    height: 600px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./images/banner.png");
-    background-size: cover;
-  }
-  
-  main {
-    margin-top: 50px;
-    padding-left: 15%;
-    padding-right: 15%;
-  }
-
-  footer {
-    margin-top: 50px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./images/counter.png");
-    background-size: cover;
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    padding-left: 15%;
-    padding-right: 15%;
-  }
